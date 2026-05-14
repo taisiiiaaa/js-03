@@ -1,5 +1,5 @@
-function makeArray(firstArray, secondArray, maxLenght) {
-  const mergedArr = [...firstArray, ...secondArray].slice(0, maxLenght);
+function makeArray(firstArray, secondArray, maxLength) {
+  const mergedArr = [...firstArray, ...secondArray].slice(0, maxLength);
   return mergedArr;
 }
 
